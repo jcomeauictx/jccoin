@@ -1,4 +1,6 @@
-Building SmallChange
+Building jccoin
+
+I will only be focusing on the jccoind no-GUI daemon. no GUI version is planned.
 
 See doc/readme-qt.rst for instructions on building smallchange-qt,
 the intended-for-end-users, nice-graphical-interface, reference
@@ -6,4 +8,4 @@ implementation of SmallChange.
 
 See doc/build-*.txt for instructions on building smallchange,
 the intended-for-services, no-graphical-interface, reference
-implementation of SmallChange.
+implementation of jccoin.

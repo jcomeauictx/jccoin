@@ -1,3 +1,13 @@
+jccoin (JCC) - a coin that maintains a very low difficulty so that anyone can
+mine it. instead of changing difficulty the payoff (subsidy) is lowered as
+more miners come online. differences from SmallChange:
+ - 20 minutes block targets
+ - no upper limit on total coins
+ - 100 coins per generated block, adjusting every block
+ - difficulty remains constant
+
+most everything else will remain same as SmallChange, whose README follows.
+---
 SmallChange (SMC) - a 'faster' version of Litecoin which also uses scrypt
 as a proof of work scheme and is intended for microtransactions.
  - 15 seconds block targets: beat that MinCoin! ;)
