@@ -1,9 +1,10 @@
 jccoin (JCC) - a coin that maintains a very low difficulty so that anyone can
 mine it. instead of changing difficulty the payoff (subsidy) is lowered as
 more miners come online. differences from SmallChange:
- - 20 minutes block targets
+ - 1 minute block targets
  - no upper limit on total coins
- - 100 coins per generated block, adjusting every block
+ - 1 coin per generated block, adjusting every block to as low as 1 jcsatoshi
+    (.00000001 JCC)
  - difficulty remains constant
 
 most everything else will remain same as SmallChange, whose README follows.
